@@ -1,0 +1,5 @@
+digraph "classes_No_Name" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{my_planes|d : list\ld : list\lindx\lindx : list\ln\ln : list\lpnts\lpnts : list\l|}", shape="record"];
+}

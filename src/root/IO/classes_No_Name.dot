@@ -1,0 +1,9 @@
+digraph "classes_No_Name" {
+charset="utf-8"
+rankdir=BT
+"0" [label="{my_camera|focalLength : int\lfocalLength : int\lheight : int\lheight : int\lname : int\lname : str\lpixelHeight : float\lpixelHeight : float\lpixelWidth : float\lpixelWidth : float\lprincipalPoint : list\lprincipalPoint : list\lwidth : int\lwidth : int\l|}", shape="record"];
+"1" [label="{my_frame|amplitudes\lamplitudes : list\ldistances : list\lindx8 : list\lintensities : list\lpoints3D\lpoints3D : list\lpoints3D_org\lpoints3D_org : list\lusage : list\l|}", shape="record"];
+"2" [label="{my_frame|amplitudes : list\ldistances : list\lindx8 : list\lintensities : list\lpoints3D : list\lpoints3D_org : list\lusage : list\l|}", shape="record"];
+"3" [label="{my_sequence|camType\lframes : list\lframes : list\l|}", shape="record"];
+"0" -> "3" [arrowhead="diamond", arrowtail="none", fontcolor="green", label="camType", style="solid"];
+}

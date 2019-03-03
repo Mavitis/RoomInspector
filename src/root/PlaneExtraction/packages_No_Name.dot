@@ -1,0 +1,31 @@
+digraph "packages_No_Name" {
+charset="utf-8"
+rankdir=BT
+"0" [label="automatic_kmeans", shape="box"];
+"1" [label="cluster2plane", shape="box"];
+"2" [label="cluster_through_gmd", shape="box"];
+"3" [label="cluster_through_histNormals", shape="box"];
+"4" [label="cluster_through_normals", shape="box"];
+"5" [label="cluster_through_regions", shape="box"];
+"6" [label="edge_region_growing", shape="box"];
+"7" [label="extract_plane_manually", shape="box"];
+"8" [label="extract_planes", shape="box"];
+"9" [label="foreground_background_separation", shape="box"];
+"10" [label="frame_decompostion", shape="box"];
+"11" [label="get4ngb", shape="box"];
+"12" [label="lbg_kmeans", shape="box"];
+"13" [label="local_plane_patches", shape="box"];
+"14" [label="patch_merging", shape="box"];
+"15" [label="plane_computation", shape="box"];
+"16" [label="pnts2plane_classification_RANSAC", shape="box"];
+"17" [label="pnts2plane_classification_rgrow", shape="box"];
+"18" [label="princomp", shape="box"];
+"19" [label="smooth_planes", shape="box"];
+"20" [label="tidyup_patches", shape="box"];
+"21" [label="transform_planes", shape="box"];
+"22" [label="voxel_plane_patches", shape="box"];
+"8" -> "5" [arrowhead="open", arrowtail="none"];
+"8" -> "16" [arrowhead="open", arrowtail="none"];
+"8" -> "17" [arrowhead="open", arrowtail="none"];
+"16" -> "1" [arrowhead="open", arrowtail="none"];
+}

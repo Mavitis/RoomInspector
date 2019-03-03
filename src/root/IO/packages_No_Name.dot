@@ -1,0 +1,11 @@
+digraph "packages_No_Name" {
+charset="utf-8"
+rankdir=BT
+"0" [label="frame2srdat", shape="box"];
+"1" [label="generate_camera_data", shape="box"];
+"2" [label="load_sequence", shape="box"];
+"3" [label="save_3Dpoints", shape="box"];
+"4" [label="srdat2frame", shape="box"];
+"2" -> "1" [arrowhead="open", arrowtail="none"];
+"2" -> "4" [arrowhead="open", arrowtail="none"];
+}

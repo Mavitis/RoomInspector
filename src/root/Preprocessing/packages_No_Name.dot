@@ -1,0 +1,27 @@
+digraph "packages_No_Name" {
+charset="utf-8"
+rankdir=BT
+"0" [label="amplitude_adaptive_median", shape="box"];
+"1" [label="backprojection", shape="box"];
+"2" [label="backprojection_fast", shape="box"];
+"3" [label="compute_normals", shape="box"];
+"4" [label="copy_NgbIndx", shape="box"];
+"5" [label="distance_adaptive_median", shape="box"];
+"6" [label="edgepoint_removing", shape="box"];
+"7" [label="median_filtering", shape="box"];
+"8" [label="open_close_usage", shape="box"];
+"9" [label="preprocessing", shape="box"];
+"10" [label="projection", shape="box"];
+"11" [label="svd_enhancing", shape="box"];
+"12" [label="thresholding", shape="box"];
+"7" -> "2" [arrowhead="open", arrowtail="none"];
+"7" -> "5" [arrowhead="open", arrowtail="none"];
+"9" -> "3" [arrowhead="open", arrowtail="none"];
+"9" -> "4" [arrowhead="open", arrowtail="none"];
+"9" -> "6" [arrowhead="open", arrowtail="none"];
+"9" -> "7" [arrowhead="open", arrowtail="none"];
+"9" -> "8" [arrowhead="open", arrowtail="none"];
+"9" -> "11" [arrowhead="open", arrowtail="none"];
+"9" -> "12" [arrowhead="open", arrowtail="none"];
+"11" -> "2" [arrowhead="open", arrowtail="none"];
+}
